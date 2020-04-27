@@ -1,1 +1,12 @@
-show
+<h2><%= @listing.title%></h2>
+<%= @listing.description %> <br>
+<%= @listing.sex %> <br>
+
+<%= @breed[@listing.breed_id-1].name %> <br>
+
+<%= @listing.city %> <br>
+
+<%= @listing.state %> <br>
+
+<%= @listing.price %> <br>
+

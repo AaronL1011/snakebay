@@ -7,7 +7,8 @@ class ListingsController < ApplicationController
     end
 
     def show
-
+        @listing = Listing.find(params[:id])
+        @breed = Breed.all
     end
 
     def new
